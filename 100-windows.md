@@ -25,10 +25,10 @@ The purpose of this Hands on Lab (HOL) is to have an understanding of how to:
 3. Containers and images created with Docker for Windows are shared between all user accounts on machines where it is installed. This is because all Windows accounts use the same VM to build and run containers.
 
 ## Install Docker Tool box 
-Install [Docker Toolbox](https://docs.docker.com/toolbox/overview/), which uses Oracle Virtual Box instead of Hyper-V. 
+Install [Docker CE for Windows](https://store.docker.com/editions/community/docker-ce-desktop-windows) with the default values.
 What the Docker for Windows install includes: The installation provides Docker Engine, Docker CLI client, Docker Compose, Docker Machine, and Kitematic.
 
-For  full documentation on installing Docker toolbox , click [here](https://docs.docker.com/toolbox/toolbox_install_windows/#step-2-install-docker-toolbox)
+After installation, switch to Linux containers if not already done : under Windows Task Bar Notification, right click on Docker icon, and select (if available) the option "Switch to Linux containers...". 
 
 ## Check if docker is installed 
 
